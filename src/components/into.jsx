@@ -213,7 +213,7 @@ const Intro = () => {
                                         rotate: 5,
                                         transition: { duration: 0.3 }
                                     }}
-                                    src="public/profile/dp.jpeg"
+                                    src="./public/profile/dp.jpeg"
                                     alt="Roshami Thashmantha"
                                     className="w-full h-full rounded-full object-cover select-none pointer-events-none border-4 border-white/20 shadow-2xl cursor-pointer"
                                 />
