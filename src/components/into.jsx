@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useState } from "react";
+import profileImage from '@/public/profile/dp.jpeg';
 
 const Intro = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -213,7 +214,7 @@ const Intro = () => {
                                         rotate: 5,
                                         transition: { duration: 0.3 }
                                     }}
-                                    src="./public/profile/dp.jpeg"
+                                    src={profileImage}
                                     alt="Roshami Thashmantha"
                                     className="w-full h-full rounded-full object-cover select-none pointer-events-none border-4 border-white/20 shadow-2xl cursor-pointer"
                                 />
