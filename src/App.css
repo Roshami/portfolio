@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme{
+  --color-primary-dark: #1A1A1A;
+  --color-secondary: #2D2D2D;
+  --color-accent-dark: #302A18;
+  --color-soft-icons: #302A18;
+  --color-accent-hover: #FDE4C3;
+}
+
+.background_light{
+  background: linear-gradient(
+    to bottom right,
+    #1C1C1C 0%,
+    #0b0338 50%,
+    #1C1C1C 100%
+  );
+  min-height: 100vh;
+}
+
+.background_dark{
+  background: linear-gradient(120deg, var(--color-primary-dark), var(--color-accent-dark));
+}
+
+.navbar {
+  background: linear-gradient(
+    to right,
+    #302A18 0%,
+    #524940 50%,
+    #302A18 100%
+  );
+  background-size: 200% auto;
+  animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% center; }
+  50% { background-position: 100% center; }
+  100% { background-position: 0% center; }
+}
+
