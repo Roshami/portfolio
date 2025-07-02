@@ -142,11 +142,11 @@ const Skills = () => {
       bgGradient: "from-blue-500/20 to-cyan-400/20",
       borderColor: "border-blue-400/50",
       skills: [
-        { name: "HTML5", level: 95, color: "text-orange-400", icon:"public/frontend/html.png"  },
-        { name: "CSS3", level: 90, color: "text-blue-400", icon:"public/frontend/css.png"  },
-        { name: "JavaScript", level: 88, color: "text-yellow-400", icon:"public/frontend/js.png"  },
-        { name: "React", level: 85, color: "text-cyan-400", icon:"public/frontend/react.png"  },
-        { name: "Tailwind", level: 92, color: "text-teal-400", icon:"public/frontend/tailwindCss.png"  },
+        { name: "HTML5", level: 95, color: "text-orange-400", icon:"/frontend/html.png"  },
+        { name: "CSS3", level: 90, color: "text-blue-400", icon:"/frontend/css.png"  },
+        { name: "JavaScript", level: 88, color: "text-yellow-400", icon:"/frontend/js.png"  },
+        { name: "React", level: 85, color: "text-cyan-400", icon:"/frontend/react.png"  },
+        { name: "Tailwind", level: 92, color: "text-teal-400", icon:"/frontend/tailwindCss.png"  },
       ]
     },
     {
@@ -156,10 +156,10 @@ const Skills = () => {
       borderColor: "border-purple-400/50",
       skills: [
         { name: "Node.js", level: 82, color: "text-green-400", icon:"public/backend/nodejs.png" },
-        { name: "Express", level: 80, color: "text-gray-300", icon:"public/backend/express.png" },
-        { name: "PHP", level: 75, color: "text-indigo-400", icon:"public/backend/php.png" },
-        { name: "Python", level: 78, color: "text-yellow-300", icon:"public/backend/python.png" },
-        { name: "Java", level: 70, color: "text-red-400", icon:"public/backend/java.png" },
+        { name: "Express", level: 80, color: "text-gray-300", icon:"/backend/express.png" },
+        { name: "PHP", level: 75, color: "text-indigo-400", icon:"/backend/php.png" },
+        { name: "Python", level: 78, color: "text-yellow-300", icon:"/backend/python.png" },
+        { name: "Java", level: 70, color: "text-red-400", icon:"/backend/java.png" },
       ]
     },
     {
@@ -168,9 +168,9 @@ const Skills = () => {
       bgGradient: "from-green-500/20 to-emerald-400/20",
       borderColor: "border-green-400/50",
       skills: [
-        { name: "MongoDB", level: 85, color: "text-green-500", icon:"public/database/mongodb.svg" },
-        { name: "XAMPP", level: 88, color: "text-orange-400", icon:"public/database/xampp.png" },
-        { name: "Git", level: 90, color: "text-red-400", icon:"public/database/git.png" },
+        { name: "MongoDB", level: 85, color: "text-green-500", icon:"/database/mongodb.svg" },
+        { name: "XAMPP", level: 88, color: "text-orange-400", icon:"/database/xampp.png" },
+        { name: "Git", level: 90, color: "text-red-400", icon:"/database/git.png" },
         
       ]
     }
