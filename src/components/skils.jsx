@@ -155,11 +155,11 @@ const Skills = () => {
       bgGradient: "from-purple-500/20 to-pink-400/20",
       borderColor: "border-purple-400/50",
       skills: [
-        { name: "Node.js", level: 82, color: "text-green-400", icon:"public/backend/nodejs.png" },
+        { name: "Node.js", level: 82, color: "text-green-400", icon:"/backend/nodejs.png" },
         { name: "Express", level: 80, color: "text-gray-300", icon:"/backend/express.png" },
-        { name: "PHP", level: 75, color: "text-indigo-400", icon:"/backend/php.png" },
+        { name: "PHP", level: 75, color: "text-indigo-400", icon:"/backend/php.svg" },
         { name: "Python", level: 78, color: "text-yellow-300", icon:"/backend/python.png" },
-        { name: "Java", level: 70, color: "text-red-400", icon:"/backend/java.png" },
+        { name: "Java", level: 70, color: "text-red-400", icon:"/backend/java.svg" },
       ]
     },
     {
