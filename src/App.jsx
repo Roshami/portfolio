@@ -11,7 +11,7 @@ function App() {
       <div className='h-screen flex bg-gray-800'>
 
         <Toaster position="top-right" />
-        <div className='w-full h-full hidden sm:block'>
+        <div className='w-full h-full'>
           <Home />
         </div>
 
