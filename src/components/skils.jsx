@@ -311,7 +311,7 @@ const Skills = () => {
                           <div className="flex items-center space-x-3 sm:space-x-4">
                             <motion.div
                               variants={iconVariants}
-                              className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center"
+                              className="w-5 h-5 sm:w-10 sm:h-10 flex items-center justify-center"
                             >
                               <img src={skill.icon} alt={skill.name} className={`w-full h-full object-contain filter grayscale-[20%] group-hover:grayscale-0 transition-all duration-300 ${skill.color}`}/>
                                 
@@ -324,7 +324,7 @@ const Skills = () => {
                           
                           {/* Proficiency Level */}
                           <div className="flex items-center space-x-2">
-                            <div className="w-16 sm:w-20 h-2 bg-slate-700 rounded-full overflow-hidden">
+                            <div className="w-10 sm:w-20 h-2 bg-slate-700 rounded-full overflow-hidden">
                               <motion.div 
                                 className={`h-full bg-gradient-to-r ${category.gradient} rounded-full`}
                                 initial={{ width: 0 }}
