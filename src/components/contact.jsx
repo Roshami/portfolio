@@ -168,7 +168,7 @@ const Contact = () => {
                 Let's Connect
               </h3>
               
-              <div className="space-y-6">
+              <div className="space-y-6 overflow-auto">
                 <div className="flex items-start space-x-4 group">
                   <div className="bg-blue-600/20 p-3 rounded-lg group-hover:bg-blue-600/30 transition-colors duration-300">
                     <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -177,7 +177,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Email</h4>
-                    <p className="text-gray-400">thashmantharoshami@gmail.com</p>
+                    <p className="text-gray-400 ">thashmantharoshami@gmail.com</p>
                   </div>
                 </div>
 

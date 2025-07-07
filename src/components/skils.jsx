@@ -144,8 +144,8 @@ const Skills = () => {
       skills: [
         { name: "HTML5", level: 95, color: "text-orange-400", icon:"/frontend/html.png"  },
         { name: "CSS3", level: 90, color: "text-blue-400", icon:"/frontend/css.png"  },
-        { name: "JavaScript", level: 88, color: "text-yellow-400", icon:"/frontend/js.png"  },
-        { name: "React", level: 85, color: "text-cyan-400", icon:"/frontend/react.png"  },
+        { name: "JavaScript", level: 50, color: "text-yellow-400", icon:"/frontend/js.png"  },
+        { name: "React", level: 50, color: "text-cyan-400", icon:"/frontend/react.png"  },
         { name: "Tailwind", level: 92, color: "text-teal-400", icon:"/frontend/tailwindCss.png"  },
       ]
     },
@@ -155,11 +155,11 @@ const Skills = () => {
       bgGradient: "from-purple-500/20 to-pink-400/20",
       borderColor: "border-purple-400/50",
       skills: [
-        { name: "Node.js", level: 82, color: "text-green-400", icon:"/backend/nodejs.png" },
-        { name: "Express", level: 80, color: "text-gray-300", icon:"/backend/express.png" },
-        { name: "PHP", level: 75, color: "text-indigo-400", icon:"/backend/php.svg" },
-        { name: "Python", level: 78, color: "text-yellow-300", icon:"/backend/python.png" },
-        { name: "Java", level: 70, color: "text-red-400", icon:"/backend/java.svg" },
+        { name: "Node.js", level: 35, color: "text-green-400", icon:"/backend/nodejs.png" },
+        { name: "Express", level: 50, color: "text-gray-300", icon:"/backend/express.png" },
+        { name: "PHP", level: 50, color: "text-indigo-400", icon:"/backend/php.svg" },
+        { name: "Python", level: 25, color: "text-yellow-300", icon:"/backend/python.png" },
+        { name: "Java", level: 50, color: "text-red-400", icon:"/backend/java.svg" },
       ]
     },
     {
@@ -169,8 +169,8 @@ const Skills = () => {
       borderColor: "border-green-400/50",
       skills: [
         { name: "MongoDB", level: 85, color: "text-green-500", icon:"/database/mongodb.svg" },
-        { name: "XAMPP", level: 88, color: "text-orange-400", icon:"/database/xampp.png" },
-        { name: "Git", level: 90, color: "text-red-400", icon:"/database/git.png" },
+        { name: "MySQL", level: 88, color: "text-orange-400", icon:"/database/mysql.svg" },
+        { name: "Git", level: 70, color: "text-red-400", icon:"/database/git.png" },
         
       ]
     }

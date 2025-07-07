@@ -193,7 +193,7 @@ const AboutMe = () => {
             rotateY: 2,
             boxShadow: "0 25px 50px rgba(59, 130, 246, 0.2)"
           }}
-          className="relative bg-white/5 backdrop-blur-xl rounded-2xl sm:rounded-3xl lg:rounded-[2rem] shadow-2xl p-6 sm:p-8 lg:p-12 border w-xs sm:w-100 md:w-150 lg:w-250 border-gray-700/50 hover:border-blue-400/50 transition-all duration-500 overflow-hidden group"
+          className="relative bg-white/5 backdrop-blur-xl rounded-2xl sm:rounded-3xl lg:rounded-[2rem] shadow-2xl p-6 sm:p-8 lg:p-12 border  sm:w-100 md:w-150 lg:w-250 border-gray-700/50 hover:border-blue-400/50 transition-all duration-500 overflow-hidden group"
         >
           {/* Card Background Animation */}
           <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-purple-500/5 to-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />

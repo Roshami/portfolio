@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import { BsDownload, BsGithub, BsLinkedin } from "react-icons/bs";
-
 
 const Footer = () => {
   // Animation variants
