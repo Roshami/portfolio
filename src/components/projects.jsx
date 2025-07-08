@@ -1,3 +1,4 @@
+import { video } from "motion/react-client";
 import { useState, useEffect } from "react";
 
 const Projects = () => {
@@ -16,7 +17,7 @@ const Projects = () => {
             description: "A modern full-stack rental platform for audio equipment with booking, reviews, and admin management features.",
             techFrontend: ["React", "TailwindCSS", "React Router"],
             techBackend: ["Node.js", "Express", "MongoDB"],
-            image: "https://placehold.co/600x400/1f2937/60a5fa?text=KV+Audio",
+            video: "/project/kv_audio.mp4",
             github: "https://github.com/Roshami/kv-audio-frontend.git",
             live: "https://kv-audio-frontend-kohl.vercel.app/",
         },
@@ -25,7 +26,7 @@ const Projects = () => {
             description: "A modern and user-friendly website showcasing The Grand Haven Hotel's facilities, rooms, and booking options.",
             techFrontend: ["HTML", "CSS", "JavaScript"],
             techBackend: [],
-            image: "https://placehold.co/600x400/1f2937/f59e0b?text=Hotel+Website",
+            video: "https://placehold.co/600x400/1f2937/f59e0b?text=Hotel+Website",
             github: "https://github.com/Roshami/Grand-Haven-Hotel.git",
             live: "https://roshami.github.io/Grand-Haven-Hotel/index.html",
         },
@@ -34,7 +35,7 @@ const Projects = () => {
             description: "An e-commerce website for Grinny-Online-Store, offering a variety of hair bands, ribbons, and stylish accessories.",
             techFrontend: ["HTML", "CSS"],
             techBackend: [],
-            image: "https://placehold.co/600x400/1f2937/ec4899?text=E-Commerce+Store",
+            video: "https://placehold.co/600x400/1f2937/ec4899?text=E-Commerce+Store",
             github: "https://github.com/Roshami/Grinny-Online-Store.git",
             live: "#",
         },
@@ -206,8 +207,10 @@ const Projects = () => {
 
                             {/* Project Image */}
                             <div className="relative mb-8 rounded-xl overflow-hidden shadow-2xl">
-                                <img
-                                    src={selectedProject.image}
+                                <video
+                                    controls
+                                    autoPlay
+                                    src={selectedProject.video}
                                     alt={selectedProject.title}
                                     className="w-full h-64 sm:h-80 object-cover"
                                 />
