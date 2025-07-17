@@ -31,13 +31,13 @@ const Projects = () => {
             live: "https://roshami.github.io/Grand-Haven-Hotel/index.html",
         },
         {
-            title: "Grinny-Online-Store",
-            description: "An e-commerce website for Grinny-Online-Store, offering a variety of hair bands, ribbons, and stylish accessories.",
-            techFrontend: ["HTML", "CSS"],
-            techBackend: [],
-            video: "https://placehold.co/600x400/1f2937/ec4899?text=E-Commerce+Store",
-            github: "https://github.com/Roshami/Grinny-Online-Store.git",
-            live: "#",
+            title: "TaskSphere Web App",
+            description: "A full-stack web application built for both personal use and company-based task management. It features user authentication with role-based access (Admin, Company User, Personal User), real-time task CRUD operations, search and filtering, visual analytics with charts, and email verification via OTP. Developed using React, Redux, Node.js, Express, MongoDB, and Tailwind CSS, the app is fully responsive and optimized for modern browsers. Ideal for managing individual goals or team productivity in organizations.",
+            techFrontend: ["React", "Redux", "TailwindCSS", "React Router"],
+            techBackend: ["Node.js", "Express", "MongoDB"],
+            video: "/project/TM.mp4",
+            github: "https://github.com/Roshami/task-management-system-frontend.git",
+            live: "https://task-management-system-frontend-gamma.vercel.app/",
         },
     ];
 
@@ -201,7 +201,7 @@ const Projects = () => {
 
                         <div className="p-8 sm:p-12">
                             {/* Project Title */}
-                            <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-white bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                            <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-white bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text">
                                 {selectedProject.title}
                             </h2>
 
